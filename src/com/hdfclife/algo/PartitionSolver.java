@@ -2,7 +2,6 @@ package com.hdfclife.algo;
 
 public class PartitionSolver {
 
-    // Time: O(n), Extra Space: O(1) besides the copy
     public static int[] partitionTwoPointer(int[] arr, int pivot) {
 
         int left = 0;
